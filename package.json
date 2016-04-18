@@ -1,7 +1,7 @@
 {
   "name": "angular-log-decorator",
   "description": "$log decorator that replaces the debug method with one that shows the whole call stack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Knorcedger",
   "bugs": "https://github.com/Knorcedger/angular-log-decorator/issues",
   "devDependencies": {
