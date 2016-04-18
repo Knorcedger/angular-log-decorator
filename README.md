@@ -1,6 +1,12 @@
 # angular-log-decorator [![Build Status](https://travis-ci.org/Knorcedger/angular-log-decorator.png?branch=master)](https://travis-ci.org/Knorcedger/angular-log-decorator)
 
-$log decorator that replaces the debug method with one that shows the whole call stack
+$log decorator that replaces the debug method with one that shows the whole call stack.  
+
+This is a decorator that modifies the $log service. It replaces the debug
+method with one that displays a group with logs.  
+This group contains an object with the data & meta and the error stack
+from the Error object. The error stack provides a trace of which functions
+were called, in what order, from which line and file.
 
 ## Installation
 
