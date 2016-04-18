@@ -1,0 +1,27 @@
+{
+  "name": "angular-log-decorator",
+  "description": "$log decorator that replaces the debug method with one that shows the whole call stack",
+  "version": "1.0.0",
+  "author": "Knorcedger",
+  "bugs": "https://github.com/Knorcedger/angular-log-decorator/issues",
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-google": "^0.5.0"
+  },
+  "homepage": "https://github.com/Knorcedger/angular-log-decorator",
+  "keywords": [
+    "$log",
+    "angular",
+    "debug",
+    "decorator",
+    "log"
+  ],
+  "license": "MIT",
+  "main": "angular-log-decorator.js",
+  "repository": {
+    "url": "https://github.com/Knorcedger/angular-log-decorator"
+  },
+  "scripts": {
+    "test": "eslint angular-log-decorator.js"
+  }
+}
